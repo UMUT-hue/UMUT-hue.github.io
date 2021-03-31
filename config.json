@@ -1,18 +1,4 @@
-[
- {
-  "username": "UMUT-hue",
-  "name": "Umut Dumandağ",
-  "userimg": "https://avatars.githubusercontent.com/u/57806513?v=4",
-  "sort": "created",
-  "order": "asc",
-  "includeFork": false,
-  "theme": "light.css",
-  "types": [
-   "owner"
-  ],
-  "twitter": null,
-  "linkedin": null,
-  "medium": null,
-  "dribbble": null
- }
-]
+$('#nav-toggle').on('click', function(e) {
+  $(this).toggleClass('nav-open');
+  $('#outer-wrapper').toggleClass('nav-open');
+});
