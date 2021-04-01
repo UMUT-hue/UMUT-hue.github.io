@@ -132,7 +132,7 @@ a:hover, a:active {
 }
 
 .header img {
-	width: 30%;
+	max-width: 100%;
 	height: auto;
 	margin: 3% 0;
 }
