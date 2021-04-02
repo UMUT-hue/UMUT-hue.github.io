@@ -83,7 +83,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	background-color: rgba(207,92,63,0.5);
+	background-color: rgba(54, 12, 204, 0.5);
 	color: #fff;
 	text-decoration: none;
 }
@@ -103,13 +103,13 @@ a:hover, a:active {
 	
 .header nav ul {
 	list-style: none; 
-	margin: 0 auto;
-	padding: auto;
+	margin: 75px;
 }
 
 .header nav ul li {
 	float: left; 
 	display: inline; 
+	margin-left: 5px;
 }
 	
 .header nav a:link, .header nav a:visited {
@@ -121,7 +121,7 @@ a:hover, a:active {
 }
 .header nav a:hover, .header nav a:active,
 .header nav .active a:link, .header nav .active a:visited {
-	background-color: rgba(207,92,63,0.5);
+	background-color: rgba(54, 12, 204, 0.5);
 	color: #fff;
 	text-shadow: none !important;
 }
@@ -273,7 +273,7 @@ a:hover, a:active {
 	
 	.header nav a:active,
 	.header nav .active a:link, .header nav .active a:visited {
-	  background-color: rgba(207,92,63,0.5);
+	  background-color: rgba(54, 12, 204, 0.5);
 		color: #fff;
 		text-shadow: none !important;
 	}
